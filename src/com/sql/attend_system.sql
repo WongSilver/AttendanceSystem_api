@@ -108,11 +108,11 @@ CREATE TABLE `student_tb` (
 -- ----------------------------
 -- Records of student_tb
 -- ----------------------------
-INSERT INTO `student_tb` VALUES ('1', '1', '王志', '1', '1', '2', null);
-INSERT INTO `student_tb` VALUES ('3', '201730271', '朱奕成', '201730271', '1', '2', null);
-INSERT INTO `student_tb` VALUES ('4', '201730431', '刘成', '201730431', '5', '2', null);
-INSERT INTO `student_tb` VALUES ('5', '201730428', '梁靖', '201730428', '5', '2', null);
-INSERT INTO `student_tb` VALUES ('6', '201730275', '王贵来', '201730275', '1', '2', null);
+INSERT INTO `student_tb` VALUES ('1', '1', '自己', '1', '1', '2', null);
+INSERT INTO `student_tb` VALUES ('3', '201900101', '学生1', '201730271', '1', '2', null);
+INSERT INTO `student_tb` VALUES ('4', '201900102', '学生2', '201730431', '5', '2', null);
+INSERT INTO `student_tb` VALUES ('5', '201900103', '学生3', '201730428', '5', '2', null);
+INSERT INTO `student_tb` VALUES ('6', '201900104', '学生4', '201730275', '1', '2', null);
 
 -- ----------------------------
 -- Table structure for `teacher_tb`
@@ -134,4 +134,4 @@ CREATE TABLE `teacher_tb` (
 -- ----------------------------
 -- Records of teacher_tb
 -- ----------------------------
-INSERT INTO `teacher_tb` VALUES ('1', '万芳', '1', '1', '2', '1', null);
+INSERT INTO `teacher_tb` VALUES ('1', '教师1', '1', '1', '2', '1', null);
